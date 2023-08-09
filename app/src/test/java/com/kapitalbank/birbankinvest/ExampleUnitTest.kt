@@ -1,4 +1,4 @@
-package com.example.birbankinvest
+package com.kapitalbank.birbankinvest
 
 import org.junit.Test
 
