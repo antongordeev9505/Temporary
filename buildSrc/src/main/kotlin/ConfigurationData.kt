@@ -1,7 +1,7 @@
 object ConfigurationData {
 
-    const val namespace = "com.example.birbankinvest"
-    const val applicationId = "com.example.birbankinvest"
+    const val namespace = "az.kapitalbank.birbankinvest"
+    const val applicationId = "az.kapitalbank.birbankinvest"
     const val compileSdk = 33
     const val minSdk = 26
     const val targetSdk = 33
