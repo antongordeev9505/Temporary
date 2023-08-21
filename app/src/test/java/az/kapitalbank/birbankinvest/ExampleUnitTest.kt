@@ -1,7 +1,6 @@
 package az.kapitalbank.birbankinvest
 
 import org.junit.Test
-
 import org.junit.Assert.*
 
 /**
