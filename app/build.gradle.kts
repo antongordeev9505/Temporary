@@ -6,7 +6,6 @@ plugins {
 android {
     defaultConfig {
         applicationId = ConfigurationData.applicationId
-        namespace = ConfigurationData.namespace
     }
 }
 
