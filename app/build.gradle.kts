@@ -1,16 +1,17 @@
 plugins {
     id("com.android.application")
     kotlin("android")
+    id("kotlin-kapt")
 }
 
 android {
     defaultConfig {
         applicationId = ConfigurationData.applicationId
-        namespace = ConfigurationData.namespace
     }
 }
 
 dependencies {
+    implementation(project(Modules.componentManager))
     // Core
     implementation(Libraries.appCompat)
     implementation(Libraries.coreKtx)
@@ -25,4 +26,5 @@ dependencies {
 
     // DI
     implementation(Libraries.implementationDagger)
+    kapt(Libraries.kaptDagger)
 }
