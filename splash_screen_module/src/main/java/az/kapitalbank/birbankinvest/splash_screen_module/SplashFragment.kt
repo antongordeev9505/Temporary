@@ -1,4 +1,4 @@
-package az.kapitalbank.splash_screen_module
+package az.kapitalbank.birbankinvest.splash_screen_module
 
 import android.content.Context
 import android.net.ConnectivityManager
@@ -11,7 +11,8 @@ import android.view.ViewGroup
 import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.navigation.fragment.findNavController
-import az.kapitalbank.splash_screen_module.databinding.FragmentSplashBinding
+import az.kapitalbank.birbankinvest.R
+import az.kapitalbank.birbankinvest.databinding.FragmentSplashBinding
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.cancel

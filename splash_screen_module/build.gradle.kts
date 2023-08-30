@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "az.kapitalbank.splash_screen_module"
+    namespace = "az.kapitalbank.birbankinvest.splash_screen_module"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "az.kapitalbank.splash_screen_module"
+        applicationId = "az.kapitalbank.birbankinvest.splash_screen_module"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
@@ -28,11 +28,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "17"
     }
 
     buildFeatures {
@@ -63,6 +63,9 @@ dependencies {
     implementation("com.github.terrakok:cicerone:7.1")
 
     implementation ("androidx.fragment:fragment-ktx:1.6.1")
+
+    implementation ("androidx.navigation:navigation-fragment-ktx:2.7.1")
+    implementation ("androidx.navigation:navigation-ui-ktx:2.7.1")
 
 
 }

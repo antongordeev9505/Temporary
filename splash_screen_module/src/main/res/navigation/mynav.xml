@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="az.kapitalbank.splash_screen_module.SplashFragment"
+        android:name="az.kapitalbank.birbankinvest.splash_screen_module.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
@@ -16,6 +16,6 @@
     </fragment>
     <fragment
         android:id="@+id/onboardingFragmentContainer2"
-        android:name="az.kapitalbank.splash_screen_module.OnboardingFragmentContainer"
+        android:name="az.kapitalbank.birbankinvest.splash_screen_module.OnboardingFragmentContainer"
         android:label="OnboardingFragmentContainer" />
 </navigation>

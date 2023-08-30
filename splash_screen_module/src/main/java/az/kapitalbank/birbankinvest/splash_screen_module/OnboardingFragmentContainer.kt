@@ -1,11 +1,11 @@
-package az.kapitalbank.splash_screen_module
+package az.kapitalbank.birbankinvest.splash_screen_module
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import az.kapitalbank.splash_screen_module.databinding.FragmentOnboardingContainerBinding
+import az.kapitalbank.birbankinvest.databinding.FragmentOnboardingContainerBinding
 
 class OnboardingFragmentContainer : Fragment(){
 
