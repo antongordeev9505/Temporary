@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.birbankinvest.my_module" >
+
+    <uses-sdk android:minSdkVersion="26" />
+
+    <application>
+        <activity
+            android:name="com.example.my_module.MainActivity2"
+            android:exported="false" />
+    </application>
+
+</manifest>

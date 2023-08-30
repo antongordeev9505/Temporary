@@ -1,0 +1,1 @@
+com.example.birbankinvest.authorization_api

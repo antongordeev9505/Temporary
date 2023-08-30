@@ -1,0 +1,6 @@
+com.example.birbankinvest.my_module
+id button
+id textView
+layout activity_main2
+string hello_blank_fragment
+string mynew
