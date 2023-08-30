@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SplashScreenTheme" parent="Theme.SplashScreen">
+        <item name="android:statusBarColor">@color/main_green</item>
+
+        <item name="android:windowSplashScreenBackground">@color/main_green</item>
+
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/main_green</item>
+
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/launch_background</item>
+
+        <item name="postSplashScreenTheme">@style/Theme.BirbankInvest</item>
+    </style>
+</resources>
