@@ -16,3 +16,5 @@ rootProject.name = "Birbank Invest"
 include(":app")
 include(":splash_screen_module")
 include(":component_manager")
+include(":authorization")
+include(":authorization_api")

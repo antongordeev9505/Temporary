@@ -1,1 +1,0 @@
-F:\Job\BIrbank\birbank-invest-android\buildSrc\build\classes\kotlin\main\ConfigurationData.class;F:\Job\BIrbank\birbank-invest-android\buildSrc\build\classes\kotlin\main\Libraries.class;F:\Job\BIrbank\birbank-invest-android\buildSrc\build\classes\kotlin\main\Modules.class;F:\Job\BIrbank\birbank-invest-android\buildSrc\build\classes\kotlin\main\Versions.class

@@ -10,8 +10,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ProgressBar
 import android.widget.Toast
-import androidx.navigation.fragment.findNavController
-import az.kapitalbank.birbankinvest.R
 import az.kapitalbank.birbankinvest.databinding.FragmentSplashBinding
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -21,10 +19,6 @@ import kotlinx.coroutines.launch
 
 
 class SplashFragment : Fragment() {
-
-    private val LOADING_DELAY = 5000L // loading simulation
-
-    private val SHOW_PROGRESS_DELAY = 3000L // Delay to display the progress bar
 
     private lateinit var progressBar: ProgressBar
     private val coroutineScope = CoroutineScope(Dispatchers.Main)
@@ -51,7 +45,7 @@ class SplashFragment : Fragment() {
         if (isNetworkAvailable(connectivityManager)) {
             coroutineScope.launch {
                 val loadingJob = launch { startLoadingProcess() }
-                delay(SHOW_PROGRESS_DELAY)
+                delay(Companion.SHOW_PROGRESS_DELAY)
                 if (loadingJob.isActive) {
                     progressBar.visibility = View.VISIBLE
                 }
@@ -63,12 +57,12 @@ class SplashFragment : Fragment() {
 
     private suspend fun startLoadingProcess() {
         //load different data, initialise app
-        delay(LOADING_DELAY)
-        navigateToNextScreen()
+        delay(Companion.LOADING_DELAY)
+    //    navigateToNextScreen()
     }
 
     private fun navigateToNextScreen() {
-        findNavController().navigate(R.id.action_splashFragment_to_onboardingFragmentContainer2)
+        //TODO navigate to onboarding (sign_up)
     }
 
     private fun isNetworkAvailable(connectivityManager: ConnectivityManager): Boolean {
@@ -86,5 +80,10 @@ class SplashFragment : Fragment() {
     override fun onDestroy() {
         super.onDestroy()
         coroutineScope.cancel()
+    }
+
+    companion object {
+        private const val LOADING_DELAY = 5000L // loading simulation
+        private const val SHOW_PROGRESS_DELAY = 3000L // Delay to display the progress bar
     }
 }

@@ -1,1 +1,0 @@
-com.example.birbankinvest.my_module_api
