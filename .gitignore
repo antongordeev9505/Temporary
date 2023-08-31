@@ -13,3 +13,8 @@
 .externalNativeBuild
 .cxx
 local.properties
+generated/
+build/
+.idea/
+/.gradle
+splash_screen_module/build
