@@ -8,6 +8,10 @@ android {
     buildFeatures {
         viewBinding = true
     }
+
+    defaultConfig {
+        namespace = ConfigurationData.namespace
+    }
 }
 
 dependencies {
